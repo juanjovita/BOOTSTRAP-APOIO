@@ -99,21 +99,48 @@
 
 
     <h2>Barra de progresso</h2>
-    <div>
-      <div></div>
+    <!--Classes: progress(Na div PAI), progress-bar(Na div filha)
+    style="width: 50%" -> Largura do progresso da barra
+    -->
+    <div class="progress">
+      <div class="progress-bar" style="width: 50%;">50%</div>
     </div>
     <br>
+    <!--Barra com cor-->
+    <div class="progress">
+    <div class="progress-bar bg-success" style="width: 40%;">40%</div>
+  </div>
+  <br>
+
 
     <h2>Altura</h2>
+  
+  <div class="progress" style="height: 2px;">
+  <div class="progress-bar bg-danger" style="width: 40%;"></div>
+</div>
+<br>
     
 
     <h2>Listrado</h2>
-    
+
+    <div class="progress">
+    <div class="progress-bar bg-warning progress-bar-striped" style="width: 70%;"></div>
+  </div>
+  <br>
 
     <h2>Animado</h2>
+    <div class="progress">
+    <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" style="width: 70%;"></div>
+  </div>
+  <br>
     
 
     <h2>Múltiplas barras</h2>
+    <div class="progress">
+      <div class="progress-bar bg-success" style="width: 20%;">Painel principal(20)% de 30</div>
+      <div class="progress-bar bg-danger" style="width: 30%;">Fotos(30)% de 50</div>
+      <div class="progress-bar bg-warning" style="width: 15%;">Painel principal(15)% de 30</div>
+    </div>
     
 
     <!-- Optional JavaScript -->
